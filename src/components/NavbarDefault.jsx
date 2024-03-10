@@ -105,6 +105,7 @@ function NavbarDefault () {
         </Link>
         <div className="hidden lg:block">{navList}</div>
         <div className="flex items-center gap-x-1">
+        
         <Link to="/register">
           <Button variant="text" size="sm" className="hidden lg:inline-block">
             <span>Register</span>
