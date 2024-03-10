@@ -1,10 +1,6 @@
-import React from 'react';
-
 function Login () {
+
     return (
-        <div className="h-screen overflow-hidden flex items-center justify-center" style={{ background: '#edf2f7' }}>
-      <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css" />
-      <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" />
 
       <section className="bg-blueGray-50">
         <div className="w-full lg:w-4/12 px-4 mx-auto pt-6">
@@ -63,7 +59,6 @@ function Login () {
           </div>
         </footer>
       </section>
-    </div>
 );
 }
 
