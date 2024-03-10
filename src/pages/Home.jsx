@@ -19,9 +19,6 @@ function HomePage() {
         ></iframe>
       </div>
 
-      <div className="grid grid-cols-3 gap-2 mt-7">
-        <h1>Before Spotify section</h1>
-      </div>
 
       <div className="bg-white py-24 sm:py-32">
         <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
@@ -73,9 +70,8 @@ function HomePage() {
         style={{ borderRadius: '12px' }}
         src="https://open.spotify.com/embed/playlist/37i9dQZF1DZ06evO0kevQv?utm_source=generator"
         width="100%"
-        height="200"
-        allowFullScreen=""
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        height="400"
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
         loading="lazy"
       ></iframe>
     </div>
