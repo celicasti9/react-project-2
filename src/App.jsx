@@ -6,7 +6,7 @@ import ErrorPage from './pages/ErrorPage'
 import Home from './pages/Home'
 import Profile from './pages/Profile'
 import Register from './pages/Register'
-import Footer from './pages/Footer'
+import Footer from './components/Footer'
 import Login from './pages/Login'
 import './App.css'
 
