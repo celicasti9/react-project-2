@@ -4,6 +4,7 @@ import NavbarDefault from './components/NavbarDefault'
 import Button from './components/Button'
 import ErrorPage from './pages/ErrorPage'
 import Home from './pages/Home'
+import Profile from './pages/Profile'
 import Register from './pages/Register'
 import Footer from './pages/Footer'
 import Login from './pages/Login'
@@ -21,6 +22,7 @@ function App() {
       <Route path="/" element={<Home />}/>
       <Route path="/login" element={<Login />}/>
       <Route path="/register" element={<Register />}/>
+      <Route path="/profile" element={<Profile />}/>
       <Route path="*" element={ <ErrorPage /> } />
       </Routes>
       <Footer />

@@ -37,6 +37,7 @@ function NavbarDefault () {
           Pages
         </a>
       </Typography>
+      <Link to="/profile">
       <Typography
         as="li"
         variant="small"
@@ -57,10 +58,9 @@ function NavbarDefault () {
             fill="#90A4AE"
           />
         </svg>
-        <a href="#" className="flex items-center">
           Account
-        </a>
       </Typography>
+      </Link>
       <Typography
         as="li"
         variant="small"
