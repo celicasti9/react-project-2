@@ -16,7 +16,6 @@ function App() {
   return (
     <>    
    <NavbarDefault /> 
-   {/*<Button /> */}
 
       <Routes>
       <Route path="/" element={<Home />}/>

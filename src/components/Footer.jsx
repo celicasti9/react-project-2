@@ -1,11 +1,11 @@
-import { Typography, Button } from "@material-tailwind/react";
+import { Typography } from "@material-tailwind/react";
 import { Link } from "react-router-dom";
 
 function Footer () {
 
 
     return (
-        <footer className="flex absolute bottom-0 w-full flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 border-t border-blue-gray-50 py-6 text-center md:justify-between">
+        <footer className="absolute bottom-0 w-full flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 border-t border-blue-gray-50 py-6 text-center md:justify-between">
       <Typography color="blue-gray" className="font-normal">
         &copy; 2024 Yunque 92.9 FM
       </Typography>
