@@ -1,5 +1,5 @@
 import { Typography, Button } from "@material-tailwind/react";
-
+import { Link } from "react-router-dom";
 
 function Footer () {
 
@@ -11,6 +11,7 @@ function Footer () {
       </Typography>
       <ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
         <li>
+          <Link to="/aboutus">
           <Typography
             as="a"
             href="#"
@@ -19,8 +20,10 @@ function Footer () {
           >
             About Us
           </Typography>
+          </Link>
         </li>
         <li>
+          <Link to="/contactus">
           <Typography
             as="a"
             href="#"
@@ -29,6 +32,7 @@ function Footer () {
           >
             Contact Us
           </Typography>
+          </Link>
         </li>
       </ul>
     </footer>
