@@ -27,7 +27,7 @@ function HomePage() {
               Conoce a nuestro equipo
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Nuestro equipo está listo para ayudarte a alcanzar esa demografía.
+              Nuestro equipo está listo para ayudarte a alcanzar esa demografica.
             </p>
           </div>
           <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">

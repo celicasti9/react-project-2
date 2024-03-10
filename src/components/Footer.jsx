@@ -6,7 +6,7 @@ function Footer() {
     <footer className="fixed bottom-0 w-full bg-white flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 border-t border-blue-gray-50 py-6 text-center md:justify-between">
       <ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
       <li>
-          <Link to="/aboutus">
+          <Link to="/about">
             <Typography
               as="a"
               href="#"

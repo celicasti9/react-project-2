@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import Profile from './pages/Profile'
 import Register from './pages/Register'
 import Footer from './components/Footer'
+import About from './pages/About'
 import Login from './pages/Login'
 import './App.css'
 
@@ -18,6 +19,7 @@ function App() {
    <NavbarDefault /> 
 
       <Routes>
+      <Route path="/about" element={<About />}/>
       <Route path="/" element={<Home />}/>
       <Route path="/login" element={<Login />}/>
       <Route path="/register" element={<Register />}/>
