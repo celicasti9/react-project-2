@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const imgURL = "https://iili.io/JVmSGv1.md.png";
 
 function HomePage() {
+
+  const [currentDay, setCurrentDay] = useState('Monday'); // Replace with dynamic logic
+
   return (
     <div>
       <div className="grid grid-cols-3 gap-2 mt-7">
@@ -61,11 +64,10 @@ function HomePage() {
                 </div>
               </div>
             </li>
-            {/* Add more people as needed */}
           </ul>
         </div>
       </div>
-
+      <div pb-8>
       <iframe
         style={{ borderRadius: '12px' }}
         src="https://open.spotify.com/embed/playlist/37i9dQZF1DZ06evO0kevQv?utm_source=generator"
@@ -74,6 +76,9 @@ function HomePage() {
         allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
         loading="lazy"
       ></iframe>
+      </div>
+
+
     </div>
   );
 }

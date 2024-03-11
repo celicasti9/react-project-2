@@ -9,6 +9,7 @@ import Register from './pages/Register'
 import Footer from './components/Footer'
 import About1 from './pages/About1'
 import Login from './pages/Login'
+import Contact from './pages/Contact'
 import './App.css'
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Route path="/login" element={<Login />}/>
       <Route path="/register" element={<Register />}/>
       <Route path="/profile" element={<Profile />}/>
+      <Route path="/contactus" element={<Contact />}/>
       <Route path="*" element={ <ErrorPage /> } />
       </Routes>
 
