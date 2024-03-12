@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+
 const imgURL = "https://iili.io/JVmSGv1.md.png";
 
 function HomePage() {
@@ -67,7 +68,7 @@ function HomePage() {
           </ul>
         </div>
       </div>
-      <div pb-8>
+      <div>
       <iframe
         style={{ borderRadius: '12px' }}
         src="https://open.spotify.com/embed/playlist/37i9dQZF1DZ06evO0kevQv?utm_source=generator"
