@@ -17,7 +17,8 @@ import EditShowPage from "./pages/EditShowPage";
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [loginUser, setLoginUser] = useState(null)
+
 
   return (
     <>    
@@ -26,14 +27,14 @@ function App() {
       <Routes>
       <Route path="/about" element={<About1 />}/>
       <Route path="/" element={<Home />}/>
-      <Route path="/login" element={<Login />}/>
+      <Route path="/login" element={<Login setLoginUser={setLoginUser} />}/>
       <Route path="/register" element={<Register />}/>
       <Route path="/profile" element={<Profile />}/>
       <Route path="/contactus" element={<Contact />}/>
       <Route path="/shows" element={<ShowListPage />} />
-        <Route exact path="/shows/create" element={<CreateShowPage />} /> 
-        <Route path="/shows/:showId" element={<ShowDetailsPage />} /> 
-        <Route path="/shows/edit/:projectId" element={ <EditShowPage /> } />
+      <Route exact path="/shows/create" element={<CreateShowPage />} /> 
+      <Route path="/shows/:showId" element={<ShowDetailsPage />} /> 
+      <Route path="/shows/edit/:projectId" element={ <EditShowPage /> } />
       <Route path="*" element={ <ErrorPage /> } />
       </Routes>
 
