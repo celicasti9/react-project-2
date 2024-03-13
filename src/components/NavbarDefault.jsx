@@ -38,7 +38,7 @@ function NavbarDefault () {
           Profile
       </Typography>
       </Link>
-      <Link to="/*">
+      <Link to="/shows">
       <Typography
         as="li"
         variant="small"
@@ -60,7 +60,7 @@ function NavbarDefault () {
           />
         </svg>
         <a href="#" className="flex items-center">
-          Docs
+          Shows
         </a>
       </Typography>
       </Link>
