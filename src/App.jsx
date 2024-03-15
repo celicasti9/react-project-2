@@ -11,9 +11,9 @@ import About1 from './pages/About1'
 import Login from './pages/Login'
 import Contact from './pages/Contact'
 import ShowListPage from "./pages/ShowListPage";
-import UpdateShow from "./pages/UpdateShow";
-import ShowDetails from "./pages/ShowDetails";
-import AddShow from "./pages/AddShow"; 
+import CreateShowPage from "./pages/CreateShowPage";
+import ShowDetailsPage from "./pages/ShowDetailsPage";
+import EditShowPage from "./pages/EditShowPage"; 
 import './App.css'
 
 function App() {
@@ -32,9 +32,9 @@ function App() {
       <Route path="/profile" element={<Profile />}/>
       <Route path="/contactus" element={<Contact />}/>
       <Route path="/shows" element={<ShowListPage />} />
-      <Route exact path="/shows/create" element={<UpdateShow />} /> 
-      <Route path="/shows/:showId" element={<ShowDetails />} /> 
-      <Route path="/shows/edit/:showId" element={ <AddShow /> } />
+      <Route exact path="/shows/create" element={<CreateShowPage />} /> 
+      <Route path="/shows/:showId" element={<ShowDetailsPage />} /> 
+      <Route path="/shows/edit/:projectId" element={ <EditShowPage /> } />
       <Route path="*" element={ <ErrorPage /> } />
       </Routes>
 
@@ -43,5 +43,4 @@ function App() {
     
   )
 }
-
 export default App
