@@ -7,6 +7,7 @@ function CreateShowPage(props) {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [schedule, setSchedule] = useState("");
+  const [thumb, setThumb] = useState("");
   const [thumbnail, setThumbnail] = useState("");
   
   const navigate = useNavigate();
@@ -72,12 +73,22 @@ function CreateShowPage(props) {
                   />
                 </div>
                 <div>
+                  <label htmlFor="thumbnail" className="block text-sm font-medium text-blueGray-600">Thumbnail Address</label>
+                  <input
+                    id="thumbnail"
+                    name="thumbnail"
+                    type="text"
+                    className="mt-1 focus:ring-light-blue-500 focus:border-light-blue-500 block w-full shadow-sm sm:text-sm border-blueGray-300 rounded-md"
+                    value={thumb}
+                    onChange={(e) => setThumb(e.target.value)}
+                  />
+                </div>
+                <div>
                   <label htmlFor="thumbnail" className="block text-sm font-medium text-blueGray-600">Thumbnail</label>
                   <input
                     id="thumbnail"
                     name="thumbnail"
                     type="file"
-                    required
                     className="mt-1 focus:ring-light-blue-500 focus:border-light-blue-500 block w-full shadow-sm sm:text-sm border-blueGray-300 rounded-md"
                     value={thumbnail}
                     onChange={(e) => setThumbnail(e.target.value)}

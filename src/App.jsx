@@ -36,7 +36,7 @@ function App() {
       <Route exact path="/shows/create" element={<CreateShowPage />} /> 
       <Route exact path="/shows/delete" element={<DeleteShow />} /> 
       <Route path="/shows/:showId" element={<ShowDetailsPage />} /> 
-      <Route path="/shows/edit/:projectId" element={ <EditShowPage /> } />
+      <Route path="/shows/edit/:showId" element={ <EditShowPage /> } />
       <Route path="*" element={ <ErrorPage /> } />
       </Routes>
 
