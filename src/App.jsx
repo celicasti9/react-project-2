@@ -14,6 +14,7 @@ import ShowListPage from "./pages/ShowListPage";
 import CreateShowPage from "./pages/CreateShowPage";
 import ShowDetailsPage from "./pages/ShowDetailsPage";
 import EditShowPage from "./pages/EditShowPage"; 
+import DeleteShow from "./pages/DeleteShow";
 import './App.css'
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
       <Route path="/contactus" element={<Contact />}/>
       <Route path="/shows" element={<ShowListPage />} />
       <Route exact path="/shows/create" element={<CreateShowPage />} /> 
+      <Route exact path="/shows/delete" element={<DeleteShow />} /> 
       <Route path="/shows/:showId" element={<ShowDetailsPage />} /> 
       <Route path="/shows/edit/:projectId" element={ <EditShowPage /> } />
       <Route path="*" element={ <ErrorPage /> } />
