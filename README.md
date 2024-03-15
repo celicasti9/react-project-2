@@ -23,4 +23,4 @@
    git clone https://github.com/celicasti9/react-project-2.git
 
 ## Screenshots
-   ![Screenshots](assets/images/screenshot.png)
+   ![Student Logo](src/assets/images/screenshot.png)
