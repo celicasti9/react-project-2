@@ -54,7 +54,7 @@ function HomePage() {
               <div className="flex items-center gap-x-6">
                 <img
                   className="h-16 w-16 rounded-full"
-                  src="https://scontent.fsju1-1.fna.fbcdn.net/v/t39.30808-6/385053960_746963090574407_5261593387724256772_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=tlWscfa3OQ4AX_sFgZk&_nc_ht=scontent.fsju1-1.fna&oh=00_AfAS4qweTBMMwqnu0CWejuDPZxs0QQZ-vuMM-W4GPmi_hg&oe=65F2CF7F"
+                  src="https://scontent.fsju2-1.fna.fbcdn.net/v/t39.30808-6/385053960_746963090574407_5261593387724256772_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Dz7HK9e9tvAAX-4kXz0&_nc_ht=scontent.fsju2-1.fna&oh=00_AfBE7rub4659cWr7FJ7qB-2RDWOZnCtpBvysAxzMgSqCbg&oe=65F8BE3F"
                   alt=""
                 />
                 <div>
