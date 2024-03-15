@@ -28,8 +28,8 @@ function About1 () {
                             <p className="font-medium text-xl leading-2 text-gray-800 mt-2">Nelly Carrion</p>
                         </div>
                         <div className="p-2 pb-2 flex justify-center flex-col items-center">
-                            <img className="md:block hidden" src="https://scontent.fsju2-1.fna.fbcdn.net/v/t39.30808-6/385053960_746963090574407_5261593387724256772_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Dz7HK9e9tvAAX-4kXz0&_nc_ht=scontent.fsju2-1.fna&oh=00_AfBE7rub4659cWr7FJ7qB-2RDWOZnCtpBvysAxzMgSqCbg&oe=65F8BE3F" alt="Olivia featured Img" />
-                            <img className="md:hidden block" src="https://scontent.fsju2-1.fna.fbcdn.net/v/t39.30808-6/385053960_746963090574407_5261593387724256772_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Dz7HK9e9tvAAX-4kXz0&_nc_ht=scontent.fsju2-1.fna&oh=00_AfBE7rub4659cWr7FJ7qB-2RDWOZnCtpBvysAxzMgSqCbg&oe=65F8BE3F" alt="Olivia featured Img" />
+                            <img className="md:block hidden" src="https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/385053960_746963090574407_5261593387724256772_n.jpg?stp=dst-jpg_p200x200&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Dz7HK9e9tvAAX92-FfW&_nc_ht=scontent-iad3-1.xx&oh=00_AfAoRWfwzaz4uPxS_neB5ZULEUoEjoSiSPgq7xBSPKoVVw&oe=65F97279" alt="Olivia featured Img" />
+                            <img className="md:hidden block" src="https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/385053960_746963090574407_5261593387724256772_n.jpg?stp=dst-jpg_p200x200&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Dz7HK9e9tvAAX92-FfW&_nc_ht=scontent-iad3-1.xx&oh=00_AfAoRWfwzaz4uPxS_neB5ZULEUoEjoSiSPgq7xBSPKoVVw&oe=65F97279" alt="Olivia featured Img" />
                             <p className="font-medium text-xl leading-2 text-gray-800 mt-2">Castillo La Cone</p>
                         </div>
                     </div>
