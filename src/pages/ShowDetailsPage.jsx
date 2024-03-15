@@ -29,6 +29,10 @@ function ProjectDetailsPage(props) {
           <>
             <h1 className="text-2xl font-semibold text-center mb-4">{show.title}</h1>
             <p className="text-gray-700">{show.description}</p>
+            <br />
+            <p className="text-gray-700">{show.schedule}</p>
+            <br />
+            <p className="text-gray-700">{show.thumbnail}</p>
           </>
         )}
 
