@@ -13,13 +13,12 @@ function ShowListPage() {
 
   const getAllShows = () => {
     axios
-      .get(`${API_URL}/shows?_embed=talents`)
+      .get(`${API_URL}/shows`)
       .then((response) => setShows(response.data))
       .catch((error) => console.log(error));
   };
 
-  // We set this effect will run only once, after the initial render
-  // by setting the empty dependency array - []
+
   useEffect(() => {
     getAllShows();
   }, [] );

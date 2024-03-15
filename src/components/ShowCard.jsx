@@ -1,22 +1,24 @@
-
-
 import { Link } from "react-router-dom";
 
-// We are deconstructing props object directly in the parentheses of the function
-function ShowCard ({ title, description, id, schedule }) {
-  
+function ShowCard({ title, description, id, schedule, thumbnail }) {
   return (
-    <div className="ShowCard card">
-      <Link to={`/shows/${id}`}>
-        <h3>{title}</h3>
+    <div className="flex flex-col bg-white rounded-lg shadow-lg overflow-hidden">
+      <Link to={`/shows/${id}`} className="block">
+        <img
+          src={thumbnail}
+          alt={title}
+          className="w-full h-48 object-cover object-center"
+        />
       </Link>
-      <p style={{ maxWidth: "400px" }}>{schedule} </p>
-      <p style={{ maxWidth: "400px" }}>{description} </p>
+      <div className="p-6">
+        <Link to={`/shows/${id}`} className="block">
+          <h3 className="text-xl font-semibold text-gray-800 mb-2">{title}</h3>
+        </Link>
+        <p className="text-sm text-gray-600 mb-4">{schedule}</p>
+        <p className="text-sm text-gray-700">{description}</p>
+      </div>
     </div>
   );
 }
 
 export default ShowCard;
-
-
-// Still need to get schedule

@@ -2,8 +2,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { Link, useParams } from "react-router-dom";
-import AddTalent from "../components/AddTalent";
-import TalentCard from "../components/TalentCard";
+
 
 const API_URL = "https://react-project-2-server.vercel.app";
 
@@ -14,7 +13,7 @@ function ProjectDetailsPage (props) {
   
   const getShow = () => {          
     axios
-      .get(`${API_URL}/shows/${showId}?_embed=talents`)
+      .get(`${API_URL}/shows/${showId}`)
       .then((response) => {
         const oneShow = response.data;
         setShow(oneShow);
@@ -36,11 +35,7 @@ function ProjectDetailsPage (props) {
         </>
       )}
 
-<AddTalent refreshShow={getShow} showId={showId} />   
 
-      { show && show.talents.map((talent) => (
-        <TalentCard key={talent.id} {...talent} />       
-      ))} 
 
       <Link to="/shows">
         <button>Back to shows</button>
