@@ -23,4 +23,4 @@
    git clone https://github.com/celicasti9/react-project-2.git
 
 ## Screenshots
-   ![Screenshots](asseets/images/screenshot.png)
+   ![Screenshots](assets/images/screenshot.png)
